@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.march15.HelloController">
+   <children>
+      <VBox fx:id="pnLogout" layoutX="250.0" layoutY="175.0">
+         <children>
+            <Button fx:id="btnToggleDarkMode" mnemonicParsing="false" onAction="#toggleDarkMode" text="Toggle Dark Mode" />
+            <Button fx:id="btnLogout" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onLogoutClick" prefHeight="25.0" prefWidth="116.0" text="Log Out" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
