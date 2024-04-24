@@ -24,11 +24,11 @@
                     <RowConstraints maxHeight="114.0" minHeight="0.0" prefHeight="66.0" vgrow="SOMETIMES" />
                     <RowConstraints maxHeight="155.0" minHeight="10.0" prefHeight="74.0" vgrow="SOMETIMES" />
                     <RowConstraints maxHeight="138.0" minHeight="10.0" prefHeight="33.0" vgrow="SOMETIMES" />
-                    <RowConstraints maxHeight="120.0" minHeight="0.0" prefHeight="36.0" />
-                    <RowConstraints maxHeight="32.0" minHeight="0.0" prefHeight="0.0" />
+               <RowConstraints maxHeight="120.0" minHeight="0.0" prefHeight="36.0" />
+               <RowConstraints maxHeight="32.0" minHeight="0.0" prefHeight="0.0" />
                 </rowConstraints>
                 <children>
-                    <Label alignment="CENTER" prefHeight="55.0" prefWidth="533.0" text="Login" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.valignment="BOTTOM">
+                    <Label alignment="CENTER" prefHeight="55.0" prefWidth="533.0" text="Registration" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.valignment="BOTTOM">
                         <font>
                             <Font name="Britannic Bold" size="26.0" />
                         </font></Label>
@@ -42,9 +42,9 @@
                         </font></Label>
                     <PasswordField fx:id="pfPassword" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                     <TextField fx:id="tfUserName" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                    <Label text="Don't have an account yet?" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="3" />
-                    <Button fx:id="btnSignin" onAction="#onSignInButtonClick" prefHeight="37.0" prefWidth="89.0" text="Login" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="3" />
-                    <Button fx:id="btnReg" onAction="#onRegButtonClick" prefHeight="38.0" prefWidth="92.0" text="Register" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="4" />
+                    <Label text="Already have an account?" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="3" />
+                    <Button fx:id="btnLogin" onAction="#onLoginButtonClick" prefHeight="38.0" prefWidth="92.0" text="Log In" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="4" />
+                    <Button fx:id="btnRegister" onAction="#onRegisterButtonClick" prefHeight="37.0" prefWidth="89.0" text="Register" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="3" />
                 </children>
             </GridPane>
             <Label fx:id="lblAlert" textFill="RED" />
